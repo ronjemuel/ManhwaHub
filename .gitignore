@@ -1,0 +1,39 @@
+# Dependencies and generated Next.js/static output
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local environment and hosting configuration
+.env
+.env.*
+!.env.example
+!.env.template
+.vercel/
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Personal browser exports and local databases
+manhwahub-backup-*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor files, test output, and temporary state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+playwright-report/
+test-results/
+*.log
+*.tmp
+*.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
